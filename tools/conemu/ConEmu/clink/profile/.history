@@ -1,0 +1,946 @@
+exit
+exit
+dir
+exit
+exit
+exit
+exit
+build.cmd 
+cd fbm-s
+cd fbm
+cd fbm-ws
+cd,,
+cd fbm-jaxb\
+mvn clean install
+dir
+cd fbm-st
+cd fbm-ws-st\
+dir 
+cd target\
+cd jaxws\
+lll
+cd stale\
+ll
+cd ..
+mvn clean compile
+cd..
+build
+build_and_deploy.cmd 
+exit
+exit
+cd..
+cd domains\
+cd fbm
+dir
+cd fbm_local\
+start
+startWebLogic.cmd 
+exit
+exit
+dir
+exit
+exit
+exit
+exit
+build.cmd 
+cd fbm-s
+cd fbm
+cd fbm-ws
+cd,,
+dir
+dir 
+cd target\
+cd jaxws\
+lll
+cd stale\
+ll
+cd..
+exit
+exit
+cd domains\
+cd fbm_local\
+start
+startWebLogic.cmd 
+build_inkl_systemtests.cmd 
+
+cd fbm-st
+cd fbm-ws-st\
+mvn -Dtest:FbmWsSmokeTests test
+cd..
+smoke.cmd 
+build
+cd fbm-app
+cd fbm
+dir
+cd fbm-jaxb\
+mvn clean install
+mvn clean compile
+cd ..
+build_and_deploy.cmd 
+cd..
+exit
+exit
+cd..
+cd domains\
+cd fbm
+cd fbm_local\
+start
+startWebLogic.cmd 
+dir
+build
+build_and_deploy.cmd 
+dir
+start
+cd..
+cd fbm
+cd domains\
+cd fbm\
+cd fbm_local\
+startWebLogic.cmd 
+startWebLogic.cmd 
+build_inkl_systemtests.cmd 
+cd fbm-st
+cd fbm-ws-st\
+mvn -Dtest:FbmWsSmokeTests test
+cd..
+smoke.cmd 
+build
+cd fbm-app
+cd fbm
+dir
+cd fbm-jaxb\
+mvn clean install
+mvn clean compile
+cd ..
+build_and_deploy.cmd 
+cd..
+exit
+exit
+cd..
+cd domains\
+cd fbm
+cd fbm_local\
+start
+startWebLogic.cmd 
+dir
+build
+build_and_deploy.cmd 
+start
+cd..
+cd domains\
+cd fbm\
+cd fbm_local\
+startWebLogic.cmd 
+cd fbm
+cd fbm-ejb\
+dir
+ant_slc_regenerate.cmd 
+ant_slc_generate.cmd 
+smoke.cmd 
+build
+cd fbm-app
+cd fbm
+dir
+cd fbm-jaxb\
+mvn clean install
+mvn clean compile
+cd ..
+build_and_deploy.cmd 
+cd..
+exit
+exit
+cd..
+cd domains\
+cd fbm
+cd fbm_local\
+start
+startWebLogic.cmd 
+dir
+build
+start
+cd domains\
+cd fbm\
+cd fbm_local\
+startWebLogic.cmd 
+dor
+ant_slc_generate.cmd 
+cd fbm
+cd fbm-ejb\
+ll
+ant_slc_regenerate.cmd 
+cd.
+cd..
+dir
+build_and_deploy.cmd 
+dir
+build
+build_and_deploy.cmd 
+start
+cd fbm\
+dier
+cd..
+cd do
+cd domains\
+cd fbm
+dir
+cd fbm_local\
+ll
+startWebLogic.cmd 
+build_and_deploy.cmd 
+start
+cd fbm\
+dier
+cd do
+cd..
+dir
+cd domains\
+cd fbm
+cd fbm_local\
+ll
+startWebLogic.cmd 
+cd..
+cd domains\
+cd fbm
+cd fbm_local\
+start
+startWebLogic.cmd 
+dir
+build
+start
+cd domains\
+cd fbm\
+cd fbm_local\
+startWebLogic.cmd 
+dor
+cd fbm
+cd fbm-ejb\
+ll
+cd.
+cd..
+dir
+build_and_deploy.cmd 
+dir
+build
+build_and_deploy.cmd 
+start
+cd fbm\
+dier
+cd..
+cd do
+cd domains\
+cd fbm_local\
+startWebLogic.cmd 
+dir
+cd fbm
+cd fbm-ejb
+ll
+ant_slc_regenerate.cmd 
+ant_slc_generate.cmd 
+ll
+ant_slc_regenerate.cmd 
+cd.
+cd..
+dir
+build_and_deploy.cmd 
+dir
+build
+start
+cd fbm\
+dier
+cd..
+cd do
+cd domains\
+cd fbm
+cd fbm_local\
+ll
+startWebLogic.cmd 
+dir
+build.cmd
+mvn package -Dmaven.skip.tests=true
+build_and_deploy.cmd 
+start
+cd fbm\
+dier
+cd..
+cd do
+cd domains\
+cd fbm_local\
+startWebLogic.cmd 
+build.cmd
+mvn package -Dmaven.skip.tests=true
+build_and_deploy.cmd 
+dir
+cd fbm
+cd fbm-ejb\
+ll
+ant_slc_generate.cmd 
+ant_slc_regenerate.cmd 
+cd fbm_local\
+ll
+startWebLogic.cmd 
+build.cmd
+mvn package -Dmaven.skip.tests=true
+dir
+build_and_deploy.cmd 
+build_and_deploy.cmd 
+cd..
+cd domains\fbm
+cd fbm_local\
+startWebLogic.cmd 
+ll
+startWebLogic.cmd 
+build.cmd
+mvn package -Dmaven.skip.tests=true
+build_and_deploy.cmd 
+build_and_deploy.cmd 
+cd..
+cd domains\fbm
+cd fbm_local\
+startWebLogic.cmd 
+cd fbm\fbm-ejb
+dir
+ant_slc_regenerate.cmd 
+ant_slc_generate.cmd 
+cd domains\fbm
+cd fbm_local\
+startWebLogic.cmd 
+dir
+build_and_deploy.cmd 
+dir
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+startWebLogic.cmd 
+dir
+build.cmd 
+startWebLogic.cmd 
+build.cmd
+mvn package -Dmaven.skip.tests=true
+build_and_deploy.cmd 
+build_and_deploy.cmd 
+cd domains\fbm
+cd fbm_local\
+startWebLogic.cmd 
+cd fbm\fbm-ejb
+dir
+ant_slc_regenerate.cmd 
+ant_slc_generate.cmd 
+cd domains\fbm
+cd fbm_local\
+startWebLogic.cmd 
+dir
+build_and_deploy.cmd 
+dir
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+startWebLogic.cmd 
+build.cmd 
+cd fbm-s
+cd fbm-st
+cd fbm-ws-st\
+cd fbm-sprot
+cd fbm
+cd..
+cd fbm-sprot\
+dir
+mvn clean install
+mvn clean pacgace
+mvn clean package
+dir
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+build.cmd 
+cd..
+cd domains\
+cd fbm
+dir
+cd fbm_local\
+startWebLogic.cmd 
+dir
+mvn clean install
+mvn clean compile
+build_and_deploy.cmd 
+startWebLogic.cmd 
+build.cmd 
+cd fbm
+cd..
+cd domains\
+cd fbm\
+dir
+cd fbm_local\
+startWebLogic.cmd 
+dir
+exit
+dir
+startWebLogic.cmd 
+dir
+mvnSetVersion.cmd 
+mvnCommitVersion.bat 
+dir
+cd fbmv\
+build_and_deploy.cmd 
+exit
+startWebLogic.cmd 
+dir
+cd fza
+mvnSetVersion.cmd 
+build_and_deploy.cmd 
+dir
+mvnCommitVersion.bat 
+exit
+cd fza
+mvnSetVersion.cmd 
+build_and_deploy.cmd 
+mvnCommitVersion.bat 
+exit
+cd..
+cd soapui\
+cd tests\
+dir
+cd..
+cd soapui\
+cd tests\
+dir
+build_and_deploy.cmd 
+build_and_deploy.cmd 
+mvnCommitVersion.bat 
+exit
+cd..
+cd domains\fbm\fbm_local\
+dir
+startWebLogic.cmd 
+exit
+cd..
+dir
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+dir
+cd..
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+build_and_deploy.cmd 
+cd..
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+build_and_deploy.cmd 
+cd fbm
+cd ej
+cd fbm-ejb\
+dir
+ant_slc_generate.cmd 
+dir
+cd..
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+build_and_deploy.cmd 
+cd ej
+dir
+cd..
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+cd fbm
+cd fbm-ejb\
+dir
+ant_slc_regenerate.cmd 
+ant_slc_generate.cmd 
+ant_slc_generate.cmd 
+cd..
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+dir
+build_and_deploy.cmd 
+dir
+ant_slc_generate.cmd 
+dir
+cd.
+cd..
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+cd.
+cd..
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+dir
+build_and_test.cmd 
+build_and_deploy.cmd 
+dir
+ant_slc_regenerate.cmd 
+ant_slc_generate.cmd 
+ant_slc_generate.cmd 
+cd..
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+dir
+build_and_deploy.cmd 
+dir
+cd.
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+cd,,
+cd soapui\
+cd tests\
+cd..
+cd build\
+cd fbm-app\
+cd fbm
+cd fbm-ejb\
+ant_slc_generate.cmd 
+dir
+dir
+cd.
+cd..
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+cd fbm-app\
+cd fbm
+cd fbm-ejb\
+ant_slc_generate.cmd 
+dir
+cd.
+cd domains\fbm\fbm_local\
+dir
+cd..
+cd domains\
+cd fbm\fbm_local\
+startWebLogic.cmd 
+exit
+startWebLogic.cmd 
+cd.
+cd..
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+dir
+build_and_deploy.cmd 
+dir
+ant_slc_regenerate.cmd 
+ant_slc_generate.cmd 
+ant_slc_generate.cmd 
+cd..
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+dir
+dir
+cd.
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+cd,,
+cd soapui\
+cd tests\
+cd..
+cd build\
+cd fbm-app\
+cd fbm
+cd fbm-ejb\
+ant_slc_generate.cmd 
+dir
+cd.
+cd..
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+dir
+mvn clean install
+mvn clean package
+build_and_deploy.cmd 
+build_and_test.cmd 
+exit
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+dir
+build_and_deploy.cmd 
+dir
+ant_slc_generate.cmd 
+dir
+cd.
+cd..
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+cd.
+cd..
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+dir
+build_and_test.cmd 
+build_and_deploy.cmd 
+dir
+ant_slc_generate.cmd 
+ant_slc_generate.cmd 
+cd..
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+dir
+build_and_deploy.cmd 
+dir
+cd.
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+cd,,
+cd soapui\
+cd tests\
+cd..
+cd build\
+cd fbm-app\
+dir
+cd.
+cd..
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+cd fbm
+cd fbm-ejb\
+dir
+ant_slc_regenerate.cmd 
+ant_slc_generate.cmd 
+exit
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+cd fbm-app\
+cd fbm
+cd fbm-ejb\
+ant_slc_generate.cmd 
+dir
+cd.
+cd domains\fbm\fbm_local\
+exit
+cd fbm\fbm_local\
+cd
+cd..
+cd ANU\
+cd project\
+setBuildEnvironment.cmd 
+cd domains\
+dir
+startWebLogic.cmd 
+dir
+cd.
+cd domains\fbm\fbm_local\
+exit
+cd fbm\fbm_local\
+cd
+cd..
+cd ANU\
+cd project\
+setBuildEnvironment.cmd 
+cd domains\
+dir
+startWebLogic.cmd 
+dir 
+fbm-goodmorning.cmd 
+build_and_deploy.cmd 
+setBuildEnvironment.cmd 
+cd domains\
+startWebLogic.cmd 
+cd.
+cd..
+cd fbm
+cd soapui\
+cd tests\
+dir
+soapui_BEA12.bat 
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+cd fbm-app\
+dir
+cd.
+cd domains\fbm\fbm_local\
+exit
+cd fbm\fbm_local\
+cd
+cd..
+cd ANU\
+cd project\
+setBuildEnvironment.cmd 
+cd domains\
+startWebLogic.cmd 
+cd fbm
+cd fbm-e
+cd fbm-ejb\
+dir
+ant_slc_generate.cmd 
+ant_slc_regenerate.cmd 
+cd domains\
+dir
+cd..
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+cd domains\fbm\fbm_local\
+setBuildEnvironment.cmd 
+cd domains\
+dir
+startWebLogic.cmd 
+dir
+ant_slc_generate.cmd 
+ant_slc_regenerate.cmd 
+cd domains\
+dir
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+cd domains\fbm\fbm_local\
+setBuildEnvironment.cmd 
+cd..
+cd FBM\
+cd domains\
+cd fza\
+cd fza_local\
+dir
+startWebLogic.cmd 
+cd domains\
+startWebLogic.cmd 
+dir
+mvn clean compile
+cd..
+setBuildEnvironment.cmd 
+cd learn-parent\
+ll
+mvn compile
+build_and_deploy.cmd 
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+cd domains\fbm\fbm_local\
+setBuildEnvironment.cmd 
+cd domains\
+dir
+startWebLogic.cmd 
+startWebLogic.cmd 
+cd learn-parent\
+dir
+build_and_deploy.cmd 
+dir
+cd domains\
+startWebLogic.cmd 
+cd domains\
+cd domains
+dir
+startWebLogic.cmd 
+cd fbm-app\
+dir
+cd.
+cd domains\fbm\fbm_local\
+exit
+cd fbm\fbm_local\
+cd
+cd..
+cd ANU\
+setBuildEnvironment.cmd 
+cd domains\
+startWebLogic.cmd 
+cd fbm
+cd fbm-e
+cd fbm-ejb\
+dir
+ant_slc_generate.cmd 
+ant_slc_regenerate.cmd 
+cd domains\
+dir
+cd..
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+cd domains\fbm\fbm_local\
+setBuildEnvironment.cmd 
+cd domains\
+dir
+startWebLogic.cmd 
+dir
+ant_slc_generate.cmd 
+ant_slc_regenerate.cmd 
+cd domains\
+dir
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+cd domains\fbm\fbm_local\
+setBuildEnvironment.cmd 
+cd..
+cd FBM\
+cd domains\
+cd fza\
+cd fza_local\
+dir
+startWebLogic.cmd 
+cd domains\
+startWebLogic.cmd 
+dir
+mvn clean compile
+setBuildEnvironment.cmd 
+cd learn-parent\
+ll
+mvn compile
+build_and_deploy.cmd 
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+cd domains\fbm\fbm_local\
+cd domains\
+dir
+startWebLogic.cmd 
+startWebLogic.cmd 
+dir
+build_and_deploy.cmd 
+dir
+cd domains\
+startWebLogic.cmd 
+cd domains\
+cd domains
+startWebLogic.cmd 
+cd users
+cd nuhanovic\
+cd Desktop\
+cd template\
+cd src\
+tree
+cd contacts
+cd: \anu
+cd \anu
+cd project\
+mvn version
+cd \users\nuhanovic\Desktop\
+cd ca4
+cd template\contacts
+mvn clean install
+cd \anu\project\learn-parent\
+clear
+lll
+l
+-Dmaven.multiModuleProjectDirectory=%M2_HOME%
+mvn -Dmaven.multiModuleProjectDirectory=%M2_HOME%
+cd learn-parent\
+dir
+call mvn %MAVEN_SETTINGS% -Dmaven.test.skip=true -Ddevbuild=true clean package install
+build.com
+build.cmd
+..\setBuildEnvironment.cmd 
+build
+mvn -version
+cd..
+setBuildEnvironment.cmd 
+mvn
+dir
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+cd domains\fbm\fbm_local\
+setBuildEnvironment.cmd 
+cd..
+cd FBM\
+cd domains\
+cd fza\
+cd fza_local\
+dir
+startWebLogic.cmd 
+cd domains\
+startWebLogic.cmd 
+dir
+setBuildEnvironment.cmd 
+cd learn-parent\
+ll
+mvn compile
+build_and_deploy.cmd 
+cd domains\fbm\fbm_local\
+startWebLogic.cmd 
+cd domains\fbm\fbm_local\
+cd domains\
+dir
+startWebLogic.cmd 
+startWebLogic.cmd 
+dir
+build_and_deploy.cmd 
+dir
+cd domains\
+startWebLogic.cmd 
+cd domains
+startWebLogic.cmd 
+cd domains\
+mvn -versipon
+mvn clean install
+mvn clean
+cd learn-parent\
+build
+mvn clean compile
+call mvn %MAVEN_SETTINGS% -Dmaven.test.skip=true -Ddevbuild=true clean install
+call ../setBuildEnvironment.cmd
+cd FBM\fbmv
+cd build\
+setEnvironment.cmd 
+cd
+cd ANU\project\learn-parent\
+cd..
+mvn -versiopn
+mvn -version
+setBuildEnvironment.cmd 
+mvn
+dir
+cd domains\
+mvn -versipon
+mvn clean
+build
+mvn clean compile
+call mvn %MAVEN_SETTINGS% -Dmaven.test.skip=true -Ddevbuild=true clean install
+call ../setBuildEnvironment.cmd
+cd FBM\fbmv
+cd build\
+setEnvironment.cmd 
+cd
+cd ANU\project\learn-parent\
+cd..
+mvn -versiopn
+mvn -version
+mvn
+setBuildEnvironment.cmd 
+cd learn-parent\
+http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionExceptionhttp://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+mvn install:install-file
+  -Dfile=<path-to-file>
+  -DgroupId=<group-id>
+  -DartifactId=<artifact-id>
+  -Dversion=<version>
+  -Dpackaging=<packaging>
+ll
+dir
+mvn install:install-file -Dfile=<${project.basedir}/libs> -DgroupId=<com.learntogether> -DartifactId=<dbunit> -Dversion=>1.0.5> -Dpackaging=<jar> -DgeneratePom=true
+mvn install:install-file -Dfile=<C:\ANU\project\learn-parent\ejb\libs\com.learntogether\dbunit\1.0.5> -DgroupId=<com.learntogether> -DartifactId=<dbunit> -Dversion=>1.0.5> -Dpackaging=<jar> -DgeneratePom=true
+mvn clean install
+cd build\fbmv\
+build_and_deploy.cmd 
+mvn install:install-file -Dfile=<${project.basedir}/libs> -DgroupId=<com.learntogether> -DartifactId=<dbunit> -Dversion=>1.0.5> -Dpackaging=<jar> -DgeneratePom=true
+mvn install:install-file -Dfile=<C:\ANU\project\learn-parent\ejb\libs\com.learntogether\dbunit\1.0.5> -DgroupId=<com.learntogether> -DartifactId=<dbunit> -Dversion=>1.0.5> -Dpackaging=<jar> -DgeneratePom=true
+mvn clean install
+cd..
+build_and_deploy.cmd 
+  -DgroupId=<group-id>
+  -DartifactId=<artifact-id>
+  -Dversion=<version>
+  -Dpackaging=<packaging>
+ll
+mvn install:install-file -Dfile=<${project.basedir}/libs> -DgroupId=<com.learntogether> -DartifactId=<dbunit> -Dversion=>1.0.5> -Dpackaging=<jar> -DgeneratePom=true
+mvn install:install-file -Dfile=<C:\ANU\project\learn-parent\ejb\libs\com.learntogether\dbunit\1.0.5> -DgroupId=<com.learntogether> -DartifactId=<dbunit> -Dversion=>1.0.5> -Dpackaging=<jar> -DgeneratePom=true
+mvn clean install
+cd build\
+cd fbm-app\
+cd fbm
+cd fbm-ejb\
+dir
+ant_slc_generate.cmd 
+cd ANU\project\learn-parent\
+cd..
+mvn -versiopn
+mvn -version
+mvn
+http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionExceptionhttp://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+mvn install:install-file
+  -Dfile=<path-to-file>
+  -DgroupId=<group-id>
+  -DartifactId=<artifact-id>
+  -Dversion=<version>
+  -Dpackaging=<packaging>
+ll
+mvn install:install-file -Dfile=<${project.basedir}/libs> -DgroupId=<com.learntogether> -DartifactId=<dbunit> -Dversion=>1.0.5> -Dpackaging=<jar> -DgeneratePom=true
+mvn install:install-file -Dfile=<C:\ANU\project\learn-parent\ejb\libs\com.learntogether\dbunit\1.0.5> -DgroupId=<com.learntogether> -DartifactId=<dbunit> -Dversion=>1.0.5> -Dpackaging=<jar> -DgeneratePom=true
+setBuildEnvironment.cmd 
+cd learn-parent\
+cd
+mvn clean package
+mvn clean install
+cd \fbm\fbm
+cd domains\
+cd fbm\
+cd fbm_local\
+cd \FBM\fbmv\domains\local\
+startWebLogic.cmd 
+cd \FBM\fza\build\fza\
+dir

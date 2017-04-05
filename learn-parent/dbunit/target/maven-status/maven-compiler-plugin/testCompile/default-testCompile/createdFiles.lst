@@ -1,0 +1,4 @@
+com\bmw\cs\test\dbunit\FlatXmlImporterTest.class
+com\bmw\cs\test\dbunit\FlatXmlExporterTest.class
+com\bmw\cs\test\dbunit\TableViewerTest.class
+com\bmw\cs\test\dbunit\FlatXmlAsserterTest.class

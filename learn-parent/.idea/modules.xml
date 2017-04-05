@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dbunit/dbunit.iml" filepath="$PROJECT_DIR$/dbunit/dbunit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ear/ear.iml" filepath="$PROJECT_DIR$/ear/ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejb/ejb.iml" filepath="$PROJECT_DIR$/ejb/ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn-parent.iml" filepath="$PROJECT_DIR$/learn-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/target/maven-archiver/maven-archiver.iml" filepath="$PROJECT_DIR$/web/target/maven-archiver/maven-archiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejb/target/maven-archiver/maven-archiver (1).iml" filepath="$PROJECT_DIR$/ejb/target/maven-archiver/maven-archiver (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/target/maven-archiver/maven-archiver (2).iml" filepath="$PROJECT_DIR$/web/target/maven-archiver/maven-archiver (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ *______________________________________________________________________________
+ *
+ * Project: learn-parent
+ * File: $HeadURL: $
+ * Version: $Id: $
+ *______________________________________________________________________________
+ *
+ * created by: Adis Nuhanovic, Adis.Nuhanovic@sulzer.de
+ * creation DATE: 03.04.2017
+ * changed by: $Author:  $
+ * CHANGE DATE: $Date::            #$
+ * description: Test data for H2 Database
+ *
+ *______________________________________________________________________________
+ *
+ * Copyright: (C) BMW AG 2017, all rights reserved
+ *______________________________________________________________________________ 
+ *
+-->
+<dataset>
+    <LEARN2GETHER.USER ID="1" EMAIL="adiss" MYUSER="nuhanovicc"/>
+    <LEARN2GETHER.USER ID="2" EMAIL="Adis" MYUSER="Nuhanovic"/>
+    <LEARN2GETHER.USER ID="4" EMAIL="adi" MYUSER="desi"/>
+</dataset>

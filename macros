@@ -1,0 +1,8 @@
+ll=dir
+cdst=cd c:\FBM\fbm\build\fbm-app\fbm-st\
+cdsp=cd c:\FBM\fbm\build\fbm-app\fbm-sprot\
+cdfbm=cd c:\FBM\fbm\build\fbm-app\fbm\
+cdbea=cd c:\FBM\fbm\domains\fbm\fbm_local\
+startbea=c:\FBM\fbm\domains\fbm\fbm_local\startWebLogic.cmd
+mvn=%MAVEN_HOME%\bin\mvn.bat %MAVEN_SETTINGS% $* 
+ant=%ANT_HOME%\bin\ant.bat $*  

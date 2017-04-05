@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+ Copyright (c) 2012, Oracle and/or its affiliates. All rights reserved.
+
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.oracle.webservices.wls</groupId>
+        <artifactId>wls-parent</artifactId>
+        <version>1.2.0-b140506.1247</version>
+        <relativePath>../parent/pom.xml</relativePath>
+    </parent>
+    <groupId>com.oracle.webservices.wls</groupId>
+    <artifactId>bea-wls9-async-response</artifactId>
+    <packaging>war</packaging>
+    <name>WLS BEA WLS9 Async Response</name>
+    <properties>
+        <destdir>${project.basedir}/src/generated</destdir>
+		<!-- Soap-stack-impl needs the source files. In order to keep one copy, 
+		     move them into soap-stack-impl module.
+		-->
+		<!--
+        <srcdir>${project.build.sourceDirectory}/weblogic/wsee/async</srcdir>
+		-->
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.oracle.webservices.wls</groupId>
+            <artifactId>wls-soap-stack-impl</artifactId>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <configuration>
+                    <warSourceDirectory>${destdir}/bea-wls9-async-response</warSourceDirectory>
+                    <packagingExcludes>WEB-INF/lib/**</packagingExcludes>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-jar-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>make-legacy-empty-jar</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                        <phase>package</phase>
+                        <configuration>
+                            <classifier>jar</classifier>
+                            <excludes>
+                                <exclude>**</exclude>
+                            </excludes>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <!--
+			<plugin>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>Generate bea_wls9_async_response war</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>run</goal>
+						</goals>
+						<configuration>
+							<tasks>
+								<taskdef name="jwsc" classname="weblogic.wsee.tools.anttasks.JwscTask" classpathref="maven.compile.classpath"/>
+
+								<jwsc destdir="${destdir}"
+								  srcdir="${srcdir}" enableAsyncService="false"
+								  source="${build.source}" classpathref="maven.compile.classpath" fork="yes">
+								  <module name="bea-wls9-async-response" explode="true">
+									<jws file="AsyncResponseBean.java"/>
+									<jws file="AsyncResponseBeanSoap12.java"/>
+								  </module>
+								</jwsc>
+							</tasks>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			-->
+        </plugins>
+    </build>
+</project>

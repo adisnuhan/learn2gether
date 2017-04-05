@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.eclipse.persistence:eclipselink:2.4.2">
+    <CLASSES>
+      <root url="jar://$JBOSSIDE_XDOCLETCORE$/ANU/apache-maven-3.3.9/repository-private/org/eclipse/persistence/eclipselink/2.4.2/eclipselink-2.4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$JBOSSIDE_XDOCLETCORE$/ANU/apache-maven-3.3.9/repository-private/org/eclipse/persistence/eclipselink/2.4.2/eclipselink-2.4.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$JBOSSIDE_XDOCLETCORE$/ANU/apache-maven-3.3.9/repository-private/org/eclipse/persistence/eclipselink/2.4.2/eclipselink-2.4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NMProperties xmlns="http://xmlns.oracle.com/cie/nodemanager/properties">
+  <logFile>C:\ANU\project\domains\nodemanager\nodemanager.log</logFile>
+  <nodeManagerHome>C:\ANU\project\domains\nodemanager</nodeManagerHome>
+  <javaHome>C:\ANU\jdk1.7.0_51</javaHome>
+  <startScriptName>startWebLogic.cmd</startScriptName>
+  <listenAddress>localhost</listenAddress>
+  <listenPort>5556</listenPort>
+</NMProperties>

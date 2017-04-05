@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/JUnit4 Test Class.txt.ft">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.regexp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/dbunit/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/dbunit/src/main/java/com/bmw/cs/test/dbunit/FlatXmlAsserter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/dbunit/src/main/java/com/bmw/cs/test/dbunit/FlatXmlExporter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/dbunit/src/main/java/com/bmw/cs/test/dbunit/FlatXmlImporter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/dbunit/src/main/java/com/bmw/cs/test/dbunit/HtmlTableExporter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/dbunit/src/main/java/com/bmw/cs/test/dbunit/TableViewer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/dbunit/src/main/java/com/bmw/cs/test/dbunit/connect/ConnectionInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/dbunit/src/main/java/com/bmw/cs/test/dbunit/connect/DbConnector.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/dbunit/src/main/java/com/bmw/cs/test/dbunit/connect/H2Connections.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/dbunit/src/main/java/com/bmw/cs/test/dbunit/connect/JdbcURL.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/dbunit/src/main/java/com/bmw/cs/test/dbunit/connect/MySQLConnections.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/dbunit/src/main/java/com/bmw/cs/test/dbunit/connect/OracleConnections.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/dbunit/src/main/java/com/bmw/cs/test/dbunit/connect/Schema.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/dbunit/src/main/java/com/bmw/cs/test/dbunit/util/FlatXmlFileHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/dbunit/src/test/java/com/bmw/cs/test/dbunit/FlatXmlAsserterTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/dbunit/src/test/java/com/bmw/cs/test/dbunit/FlatXmlExporterTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/dbunit/src/test/java/com/bmw/cs/test/dbunit/FlatXmlImporterTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/dbunit/src/test/java/com/bmw/cs/test/dbunit/TableViewerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/main/java/com/learntogether/common/DBConnection.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/main/java/com/learntogether/common/TableViewer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/main/java/com/learntogether/common/dbunit/TableViewer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/main/java/com/learntogether/common/dbunit/connect/ConnectionInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/main/java/com/learntogether/common/dbunit/connect/DbConnectior.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/main/java/com/learntogether/common/dbunit/connect/DbConnector.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/main/java/com/learntogether/common/dbunit/connect/H2Connections.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/main/java/com/learntogether/common/dbunit/connect/OracleConnections.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/main/java/com/learntogether/common/dbunit/connect/Schema.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/main/java/com/learntogether/common/dbunit/persistence/AbstractH2UnitTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/main/java/com/learntogether/common/dbunit/util/FlatXmlFileHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/main/java/com/learntogether/common/dbunit/util/IgnoreColumns.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/main/java/com/learntogether/common/dbunit/util/SortColumns.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/main/java/com/learntogether/common/dbunit/wrapper/DatabaseConnection.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/main/java/com/learntogether/common/dbunit/wrapper/FlatXmlAsserter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/main/java/com/learntogether/common/dbunit/wrapper/FlatXmlExporter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/main/java/com/learntogether/common/dbunit/wrapper/FlatXmlImporter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/main/java/com/learntogether/common/dbunit/wrapper/IDatabaseConnection.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/main/java/com/learntogether/common/dbunit/wrapper/TableViewer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/main/java/com/learntogether/common/testing/connection/ConnectionInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/main/java/com/learntogether/common/testing/connection/Schema.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/main/java/com/learntogether/user/boundary/UserSessionBean.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/main/java/com/learntogether/user/entity/CustomerBE.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/main/resources/META-INF/persistence.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/test/java/com/learntogether/user/boundary/TestUserSessionBean.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/test/java/com/learntogether/user/boundary/UserSessionBeanTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/test/java/com/learntogether/user/boundary/UserSessionBean_testdata.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/test/resources/META-INF/persistence.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/test/resources/com/learntogether/user/boundary/UserSessionBean_testdata.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ejb/src/test/resources/ddl/create_tables.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$JBOSSIDE_XDOCLETCORE$/FBM/fza/build/fza/fza-fhist/fza-fhist-ejb/src/test/resources/META-INF/persistence.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$JBOSSIDE_XDOCLETCORE$/FBM/fza/build/fza/fza-rol/fza-rol-ejb/src/test/resources/META-INF/persistence.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$JBOSSIDE_XDOCLETCORE$/FBM/fza/build/fza/fza/fza-common-test/src/test/java/com/bmw/cs/fza/business/SampleBusinessLogicBABeanCreateFindEntryTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

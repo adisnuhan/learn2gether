@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ *______________________________________________________________________________
+ *
+ * Project: fza
+ * File: $HeadURL: https://lpintrae.muc:4756/svn/fza/code/trunk/build/fza/dbunit/src/changes/changes.xml $
+ * Version: $Id: changes.xml 5057 2017-03-30 04:50:00Z qx72871 $
+ *______________________________________________________________________________
+ *
+ * created by: Stefan Knaus; stefan.knaus@sulzer.de
+ * creation DATE: 27.01.2016
+ * changed by: $Author: qx72871 $
+ * CHANGE DATE: $Date:: 2017-03-30 #$
+ * description: document changes for  dbunit package
+ *
+ *______________________________________________________________________________
+ *
+ * Copyright: (C) BMW AG 2016, all rights reserved
+ *______________________________________________________________________________ 
+ *
+-->
+<document xmlns="http://maven.apache.org/changes/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/changes/1.0.0 http://maven.apache.org/xsd/changes-1.0.0.xsd">
+    <properties>
+        <title>Changes to Project DBUnit</title>
+        <author email="knaus@sulzer.de">Stefan Knaus</author>
+        <author email="koch@sulzer.de">Marc Koch</author>
+        <author email="schmischke@sulzer.de">Torsten Schmischke</author>
+    </properties>
+    <body>
+        <release version="1.0.8" date="2017-03-30" description="Minor release">
+            <action dev="Knaus" type="add">
+                - Added Connection Info for FBM-Test Database
+            </action>
+        </release>
+        <release version="1.0.7" date="2017-01-17" description="Minor release">
+            <action dev="Knaus" type="add">
+                - Added HtmlTableExporter
+            </action>
+        </release>
+
+        <release version="1.0.6" date="2016-05-10" description="Minor release">
+			<action dev="Koch" type="add">
+				- upgrade dbunit from 2.5.1 to latest version 2.5.2 (also added sources of dbunit)
+                - in FlatXmlAsserter added additionalColumns Info so error messages show more info about row that fails the assert and not only the rowNumber (which can depend on sorting)
+			</action>
+		</release>
+
+    	<release version="1.0.5" date="2016-03-22" description="Minor release">
+			<action dev="schmischke" type="add">
+				added constructors (in DbConnector, FlatXmlImporter, -Exporter, -Asserter and TableViewer) to provide more control over the used jdbc connection if necessary
+			</action>
+		</release>
+        
+        <release version="1.0.4" date="2016-02-10" description="Minor release">
+            <action dev="koch" type="add">
+                added constructors with (Class, ConnectionInfo)
+                replaced System.out.println with slf4j Logging
+            </action>
+        </release>
+        
+        <release version="1.0.3" date="2016-01-28" description="Minor release">
+            <action dev="koch" type="add">
+                changed all oracle users to resource users in class OracleConnections
+            </action>
+        </release>
+        
+        <release version="1.0.2" date="2016-01-27" description="Minor release">
+            <action dev="koch" type="add">
+                renamed method TableViewer.printCompleteDatabase to printSchema
+            </action>
+            <action dev="koch" type="add">
+                added passwords to OracleConnections
+            </action>
+        </release>
+        
+        <release version="1.0.1" date="2016-01-26" description="Minor release">
+            <action dev="knaus" type="add">
+                Added additional DB-Connections for FBM Systems
+            </action>
+            <action dev="knaus" type="add">
+                XML-Export prints NULLs from DB as [NULL]
+            </action>
+            <action dev="knaus" type="add">
+                XML-Exports for Table and its dependents based on a where clause.
+            </action>
+        </release>
+
+        <release version="1.0.0" date="2016-01-26" description="First release">
+            <action dev="koch" type="add">
+                Initial version of dbunit test package
+            </action>
+        </release>
+    </body>
+</document>

@@ -1,0 +1,5 @@
+#The version of LDIFT loaded for the WLS default RoleMapper provider. Last update was to version 41
+#Sat Mar 04 12:16:33 CET 2017
+RoleMapper=41
+PolicyUpdate=false
+StoreId=ldap_4yK4IG7mWTdUVXdR2ynqH1cZHPw\=

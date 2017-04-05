@@ -1,0 +1,4 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Mar 10 14:08:55 CET 2017
+default-http\://repo.maven.apache.org/maven2/.lastUpdated=1489151335394
+http\://repo.maven.apache.org/maven2/.error=Could not transfer artifact com.bmw.cs.test\:dbunit\:pom\:1.0.5 from/to central (http\://repo.maven.apache.org/maven2)\: Connection to http\://repo.maven.apache.org refused

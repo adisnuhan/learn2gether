@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dbunit" />
+        <module name="ear" />
+        <module name="ejb" />
+        <module name="maven-archiver" />
+        <module name="maven-archiver (1)" />
+        <module name="maven-archiver (2)" />
+        <module name="web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dbunit" target="1.7" />
+      <module name="ear" target="1.5" />
+      <module name="ejb" target="1.7" />
+      <module name="learn-parent" target="1.5" />
+      <module name="maven-archiver" target="1.5" />
+      <module name="maven-archiver (1)" target="1.5" />
+      <module name="maven-archiver (2)" target="1.5" />
+      <module name="web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

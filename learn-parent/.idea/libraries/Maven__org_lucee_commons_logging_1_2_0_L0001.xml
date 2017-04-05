@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.lucee:commons-logging:1.2.0.L0001">
+    <CLASSES>
+      <root url="jar://$JBOSSIDE_XDOCLETCORE$/ANU/apache-maven-3.3.9/repository-private/org/lucee/commons-logging/1.2.0.L0001/commons-logging-1.2.0.L0001.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$JBOSSIDE_XDOCLETCORE$/ANU/apache-maven-3.3.9/repository-private/org/lucee/commons-logging/1.2.0.L0001/commons-logging-1.2.0.L0001-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$JBOSSIDE_XDOCLETCORE$/ANU/apache-maven-3.3.9/repository-private/org/lucee/commons-logging/1.2.0.L0001/commons-logging-1.2.0.L0001-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

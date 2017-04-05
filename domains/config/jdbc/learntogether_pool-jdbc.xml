@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jdbc-data-source xmlns="http://xmlns.oracle.com/weblogic/jdbc-data-source" xmlns:sec="http://xmlns.oracle.com/weblogic/security" xmlns:wls="http://xmlns.oracle.com/weblogic/security/wls" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.oracle.com/weblogic/jdbc-data-source http://xmlns.oracle.com/weblogic/jdbc-data-source/1.0/jdbc-data-source.xsd">
+  <name>learntogether_pool</name>
+  <jdbc-driver-params>
+    <url>jdbc:mysql://localhost:3306/learn2gether</url>
+    <driver-name>com.mysql.jdbc.Driver</driver-name>
+    <properties>
+      <property>
+        <name>user</name>
+        <value>root</value>
+      </property>
+    </properties>
+    <password-encrypted>{AES}WyEoOqfEv0U3vDACHfvdEYw03CVsEKEbgPC1bfb8PCE=</password-encrypted>
+  </jdbc-driver-params>
+  <jdbc-connection-pool-params>
+    <test-table-name>SQL SELECT 1</test-table-name>
+  </jdbc-connection-pool-params>
+  <jdbc-data-source-params>
+    <jndi-name>learntogether_pool</jndi-name>
+    <global-transactions-protocol>OnePhaseCommit</global-transactions-protocol>
+  </jdbc-data-source-params>
+</jdbc-data-source>

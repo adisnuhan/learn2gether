@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.h2database:h2:1.4.187">
+    <CLASSES>
+      <root url="jar://$JBOSSIDE_XDOCLETCORE$/ANU/apache-maven-3.3.9/repository-private/com/h2database/h2/1.4.187/h2-1.4.187.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$JBOSSIDE_XDOCLETCORE$/ANU/apache-maven-3.3.9/repository-private/com/h2database/h2/1.4.187/h2-1.4.187-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$JBOSSIDE_XDOCLETCORE$/ANU/apache-maven-3.3.9/repository-private/com/h2database/h2/1.4.187/h2-1.4.187-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
