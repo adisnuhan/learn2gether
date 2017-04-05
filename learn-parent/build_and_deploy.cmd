@@ -1,21 +1,19 @@
 @echo off
 REM ______________________________________________________________________________
-REM
-REM  Project: FBMV
-REM  File: $HeadURL: https://lpintrae.muc:4756/svn/fbm-viewer/trunk/build/fbmv/build_and_deploy.cmd $
-REM  Version: $Id: build_and_deploy.cmd 2124 2015-08-21 09:09:01Z qxk4666 $
+REM 
+REM  Project: Learn2Gether
+REM  File: $HeadURL: https://github.com/adisnuhan/learn2gether.git $
+REM  Version: $Id: setBuildEnvironment.cmd 4054 2016-12-13 05:11:51Z qx72871 $
 REM ______________________________________________________________________________
-REM
-REM  created by: Stefan Knaus; stefan.knaus@sulzer.de
-REM  creation DATE: 24.04.2014
-REM  changed by: $Author: qxk4666 $
-REM  CHANGE DATE: $Date:: 2015-08-21 #$
-REM  description: builds and deploys FBM-Viewer to local server
+REM 
+REM  created by: Adis Nuhanovic; nuhanovic.vkl@gmail.com
+REM  description: configure Learn2Gether build environment
 REM ______________________________________________________________________________
-REM
-REM  Copyright: (C) BMW AG 2010, all rights reserved
+REM 
+REM  Copyright: (C) Bosnian Cheater 2017, all rights reserved
 REM ______________________________________________________________________________
-REM
+REM 
+
 set EAR_FILE=.\ear\target\learn-parent.ear
 
 :START

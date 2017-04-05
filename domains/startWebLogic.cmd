@@ -5,7 +5,7 @@
 
 SETLOCAL
 
-set DOMAIN_HOME=C:\ANU\project\domains
+set DOMAIN_HOME=C:\ANU\learn2gether\domains
 
 call "%DOMAIN_HOME%\bin\startWebLogic.cmd" %*
 

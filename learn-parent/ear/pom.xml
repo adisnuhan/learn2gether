@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <artifactId>learn-parent</artifactId>
-        <groupId>com.learn2gether</groupId>
+        <groupId>com.learntogether</groupId>
         <version>1.0</version>
     </parent>
 
